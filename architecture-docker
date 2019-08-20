@@ -1,0 +1,14 @@
+Docker Architecture :
+
+Docker Engine
+Docker is the client-server type of application which means we have clients who relay to the server. So the Docker daemon called: dockerd is the Docker engine which represents the server. 
+
+Docker Images
+Docker images are the "source code" for our containers; we use them to build containers. They can have software pre-installed which speeds up deployment. They are portable, and we can use existing images or build our own.
+
+Registries
+Docker stores the images we build in registries. There are public and private registries. Docker company has public registry called Docker hub, where you can also store images privately. 
+
+Docker Containers
+Containers are the organizational units of Docker. When we build an image and start running it; we are running in a container..
+In simple terms, an image is a template, and a container is a copy of that template. You can have multiple containers (copies) of the same image.
